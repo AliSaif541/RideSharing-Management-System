@@ -1,0 +1,105 @@
+body {
+    background-color: rgba(34, 34, 40, 1);
+}
+
+h1 {
+    font-weight: bold; 
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+    color:white;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span {
+    color: rgba(154, 198, 30, 1);
+}
+
+h2 {
+    font-weight: bold; 
+    padding: 20px 20px 20px 20px;
+    font-size: 27.5px;
+    color:white;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.custom-login-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.custom-form {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.custom-user-inp {
+    border-radius: 15px;
+    background-color: rgba(112, 112, 115, 1);
+    color: white;
+    padding: 7.5px;
+    margin-top: 10px;
+    border-style: solid;
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+::placeholder {
+    color: white;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.custom-error {
+    color: white;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    align-self: center;
+    justify-self: center;
+} 
+
+.custom-sub-button {
+    justify-self: center;
+    border-radius: 15px;
+    background-color: rgba(154, 198, 30, 1);
+    color: white;
+    padding: 5px;
+
+    margin: 0px;
+    width: 6.25rem;
+    border-style: solid;
+    border-color: rgba(154, 198, 30, 1);
+}
+.custom-sub-button:hover {
+    background-color: rgba(153, 198, 30, 0.856);
+    color: rgba(154, 198, 30, 1);
+    cursor: pointer;
+}
+
+.custom-question {
+    text-align: center;
+}
+
+a {
+    color: rgba(154, 198, 30, 1);
+}
+
+p {
+    color: white;
+    margin: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

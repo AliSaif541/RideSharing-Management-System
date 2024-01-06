@@ -1,0 +1,105 @@
+.Admin-container {
+  margin-top: 10px;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; */
+}
+
+h1 {
+  font-weight: bold; 
+  padding: 20px 20px 20px 20px;
+  font-size: 30px;
+  color:white;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sub--button {
+  background-color: rgba(154, 198, 30, 1);
+  color: white;
+  padding: 10px 20px; 
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; 
+  position: relative; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.D-Title, .C-Title {
+  font-weight: bold; 
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    color:white;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-weight: bold; 
+  font-size: 20px;
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+  font-weight: bold; 
+  font-size: 12px;
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.authForm {
+  display: grid;
+  justify-items: start;
+}
+
+.email-div {
+  font-weight: bold; 
+  font-size: 15px;
+  justify-self: start;
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.email-inp {
+  border-radius: 15px;
+  background-color: rgba(112, 112, 115, 1);
+  color:white;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  width: 20rem;
+  border-style: solid;
+  
+
+  align-items: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.email-sub-button {
+  border-radius:15px;
+  background-color: rgba(154, 198, 30, 1);
+  color: white;
+  padding: 5px 5px 5px;
+  margin-top: 15px;
+  width: 10rem;
+  border-style: solid;
+  border-color: rgba(154, 198, 30, 1);
+}
+
+.email-sub-button:hover{
+  background-color: rgba(153, 198, 30, 0.856);
+  color: rgba(154, 198, 30, 1) ;
+  cursor: pointer;
+}
+
+.auth-error {
+  font-size: 12px;
+  margin-top: 10px;
+  justify-self: start;
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
