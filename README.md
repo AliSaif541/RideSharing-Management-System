@@ -50,10 +50,10 @@ Follow these steps to set up and run the RideSharing Management System on your l
    - In the server directory, run:
       ```bash
       Copy code
-      npm start
+      npm run start
    - In the client directory, run:
       ```bash
       Copy code
-      npm start
+      npm run start
 5. **Access the Application:**
    - Open your browser and navigate to http://localhost:3000 to use the application.
