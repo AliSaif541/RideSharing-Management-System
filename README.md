@@ -36,7 +36,7 @@ Follow these steps to set up and run the RideSharing Management System on your l
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/ridesharing-management-system.git
+   git clone https://github.com/alisaif541/ridesharing-management-system.git
    cd ridesharing-management-system
 2. **Install Dependencies:**
    ```bash
