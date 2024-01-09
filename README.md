@@ -2,7 +2,7 @@
 
 ## Overview
 
-The RideSharing Management System is a web application built on the MERN (MongoDB, Express.js, React, Node.js) stack. I created this project as part of my CS334-Databases project.
+The RideSharing Management System is a web application built on the MERN (MongoDB, Express.js, React, Node.js) stack. I created this project as part of my CS340-Databases project.
 
 ## Features
 
